@@ -2,45 +2,57 @@
 <html lang="en">
   <head>
     <title>dandy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Dandy's Website" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; frame-ancestors 'none'; base-uri 'self';"
+    />
   </head>
   <body>
     <h1>dandy</h1>
     <h2>i love (computer) science, philosophy, and prakṛtilola.</h2>
+
     <h3>stuff</h3>
     <ul>
       <li><a href="#">blogs</a></li>
-      <li><a href="https://youtube.com/@j4den">youtube</a></li>
-      <li><a href="https://github.com/kdandy">github</a></li>
+      <li><a href="https://youtube.com/@j4den" rel="noopener noreferrer" target="_blank">youtube</a></li>
+      <li><a href="https://github.com/kdandy" rel="noopener noreferrer" target="_blank">github</a></li>
     </ul>
+
     <h3>projects</h3>
     <p><i>(some of my favorites)</i></p>
     <ul>
-      <li><a href="https://belajarfrontend.org">belajarfrontend.org</a></li>
-      <li><a href="https://multinity.id">multinity.id</a></li>
-      <li><a href="https://getstisla.com">getstisla.com</a></li>
-      <li><a href="https://codedesign.dev">codedesign.dev</a></li>
+      <li><a href="https://seriburesep.my.id" rel="noopener noreferrer" target="_blank">seriburesep.dandy.my.id</a></li>
+      <li><a href="https://favephotobooth.my.id" rel="noopener noreferrer" target="_blank">favephotobooth.my.id</a></li>
+      <li><a href="https://getstisla.com" rel="noopener noreferrer" target="_blank">getstisla.com</a></li>
+      <li><a href="https://codedesign.dev" rel="noopener noreferrer" target="_blank">codedesign.dev</a></li>
     </ul>
+
     <h3>social</h3>
     <p><i>(not frequently checking my social media accounts – maybe twice a week)</i></p>
     <ul>
-      <li><a href="https://twitter.com/seqozi">twitter</a></li>
-      <li><a href="https://open.spotify.com/playlist/3Nrf1xfthFIC32g2lvllMc?si=d01bf48e35304209">spotify playlist</a></li>
-      <li><a href="https://instagram.com/sagarasheilendra">instagram</a></li>
-      <li><a href="https://www.linkedin.com/in/kdandy/">linkedin</a></li>
+      <li><a href="https://twitter.com/seqozi" rel="noopener noreferrer" target="_blank">twitter</a></li>
+      <li>
+        <a href="https://open.spotify.com/playlist/3Nrf1xfthFIC32g2lvllMc?si=d01bf48e35304209" rel="noopener noreferrer" target="_blank">spotify playlist</a>
+      </li>
+      <li><a href="https://instagram.com/sagarasheilendra" rel="noopener noreferrer" target="_blank">instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/kdandy/" rel="noopener noreferrer" target="_blank">linkedin</a></li>
     </ul>
+
     <h3>donate</h3>
     <p><i>If you like my work, consider supporting me:</i></p>
     <ul>
-      <li><a href="https://saweria.co/kdandy">saweria</a></li>
-      <li><a href="https://paypal.me/dandyfaishal">paypal</a></li>
-      <li><a href="https://buymeacoffee.com/kdandy">buy me a coffee</a></li>
+      <li><a href="https://saweria.co/kdandy" rel="noopener noreferrer" target="_blank">saweria</a></li>
+      <li><a href="https://paypal.me/dandyfaishal" rel="noopener noreferrer" target="_blank">paypal</a></li>
+      <li><a href="https://buymeacoffee.com/kdandy" rel="noopener noreferrer" target="_blank">buy me a coffee</a></li>
     </ul>
+
     <footer>
       <p>copyright &copy; <span id="year"></span></p>
     </footer>
+
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
