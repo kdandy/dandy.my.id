@@ -52,9 +52,11 @@
     <footer>
       <p>copyright &copy; <span id="year"></span></p>
     </footer>
-
+    
     <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById("year").textContent = new Date().getFullYear();
+      });
     </script>
-  </body>
-</html>
+    </body>
+    </html>    
